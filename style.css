@@ -1,0 +1,37 @@
+body {
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+h1 {
+    color: rgb(180, 35, 35);
+}
+
+h2 {
+    color: blueviolet
+}
+
+h1,
+h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 20px;
+    line-height: 1.6;
+    font-style: italic; /* Poemas costumam ficar lindos em itálico */
+    font-size: 48px;
+    color: #363030; /* Cor interna do texto */
+    text-shadow: 
+    0 0 5px #00ffc0,
+    0 0 10px #00ffc0,
+    0 0 20px #00ffc0,
+    0 0 40px #00ffc0; /* Camadas com desfoque progressivo */
+}
+
+p {
+    width: 300px;         /* Largura da caixa */
+  height: 150px;        /* Altura da caixa */
+  background-color: #d02f2f; /* Cor de fundo */
+  border: 2px solid #333;    /* Borda: espessura, estilo e cor */
+  padding: 20px;        /* Espaçamento interno */
+  margin: 15px;         /* Espaçamento externo */
+  border-radius: 8px;   /* Arredondamento das bordas */
+}
